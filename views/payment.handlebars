@@ -1,0 +1,48 @@
+<div id="paymentResponse" class="hidden">{{{ response }}}</div>
+<div id="clientKey" class="hidden">{{ clientKey }}</div>
+{{!-- <br/>
+<br/> --}}
+<div style="padding-top: 8%">
+    <table class="table" align="center"  >
+        <tr align="center" vertical-align="">
+            <td>
+                <h4>Item</h4>
+            </td>
+            <td>
+                <h4>Description</h4>
+            </td>
+            <td>
+                <h4>Price</h4>
+            </td>
+        </tr>
+        <tr align="center">
+            <td>
+                <img src="/images/shoe.png"/>
+            </td>
+            <td >
+                <p>Beautiful Leather Shoes</p>
+            </td>
+            <td>
+                <p>$5 EUR</p>
+            </td>
+        </tr>
+        <tr align="center">
+            <td>
+                <h4>Total Price:</h4>
+            </td>
+            <td></td>
+            <td>
+                <h4>$5 EUR</h4>
+            </td>
+        </tr>
+    </table>
+</div>
+<hr/>
+<div align="center" style="padding-top:5%">
+    <h4>Payment Methods</h4>
+</div>
+
+<div id="dropin"></div>
+
+{{!-- Adyen Component client code --}}
+<script type="text/javascript" src="../implementation.js"></script>
